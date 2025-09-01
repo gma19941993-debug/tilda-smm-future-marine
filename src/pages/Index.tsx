@@ -61,12 +61,38 @@ export default function Index() {
             >
               {/* Profile photo in center */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-shell/50 bg-white/90">
+                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-shell/50 bg-white/90 relative">
                   <img 
-                    src="https://cdn.poehali.dev/files/f08d7a0b-3e36-4bb0-a44b-ac124115fb5f.jpg" 
+                    src="https://cdn.poehali.dev/files/5591a788-2f17-4a9d-830e-d5a88c1e806b.jpg" 
                     alt="Преподаватель SMM"
                     className="w-full h-full object-cover"
+                    style={{
+                      filter: `
+                        contrast(1.2) 
+                        saturate(1.3) 
+                        sepia(0.1) 
+                        hue-rotate(10deg) 
+                        brightness(1.1)
+                        drop-shadow(0 0 10px rgba(64, 224, 208, 0.5))
+                      `
+                    }}
                   />
+                  {/* Fantasy magical overlay */}
+                  <div 
+                    className="absolute inset-0 rounded-full"
+                    style={{
+                      background: `
+                        radial-gradient(circle at 30% 30%, rgba(255, 215, 0, 0.15) 0%, transparent 40%),
+                        radial-gradient(circle at 70% 70%, rgba(64, 224, 208, 0.1) 0%, transparent 40%),
+                        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%)
+                      `,
+                      mixBlendMode: 'overlay'
+                    }}
+                  />
+                  {/* Sparkle effects */}
+                  <div className="absolute top-2 right-4 w-2 h-2 bg-shell rounded-full animate-pulse opacity-70"></div>
+                  <div className="absolute bottom-6 left-3 w-1 h-1 bg-ocean-cyan rounded-full animate-pulse opacity-80" style={{ animationDelay: '1s' }}></div>
+                  <div className="absolute top-8 left-6 w-1.5 h-1.5 bg-white rounded-full animate-pulse opacity-60" style={{ animationDelay: '2s' }}></div>
                 </div>
               </div>
             </div>
@@ -308,7 +334,7 @@ export default function Index() {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-shell shadow-2xl">
                   <img 
-                    src="https://cdn.poehali.dev/files/f08d7a0b-3e36-4bb0-a44b-ac124115fb5f.jpg" 
+                    src="https://cdn.poehali.dev/files/5591a788-2f17-4a9d-830e-d5a88c1e806b.jpg" 
                     alt="Преподаватель"
                     className="w-full h-full object-cover"
                   />
