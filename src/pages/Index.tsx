@@ -63,7 +63,7 @@ export default function Index() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-shell/50 bg-white/90 relative">
                   <img 
-                    src="https://cdn.poehali.dev/files/5591a788-2f17-4a9d-830e-d5a88c1e806b.jpg" 
+                    src="https://cdn.poehali.dev/files/c791d3c0-0cbb-4531-be83-2406aa7a8a2d.jpg" 
                     alt="Преподаватель SMM"
                     className="w-full h-full object-cover"
                     style={{
