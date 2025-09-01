@@ -19,27 +19,6 @@ export default {
 		},
 		extend: {
 			colors: {
-				// Astrology theme colors
-				mystic: {
-					DEFAULT: '#1a1a2e',
-					light: '#2a2a4e', 
-					dark: '#0f0f1f'
-				},
-				gold: {
-					DEFAULT: '#d4af37',
-					light: '#f4d03f',
-					dark: '#b7950b'
-				},
-				cosmic: {
-					DEFAULT: '#16213e',
-					light: '#1e3a5f',
-					dark: '#0d1426'
-				},
-				emerald: {
-					DEFAULT: '#00bfa5',
-					light: '#4dd0e1',
-					dark: '#00695c'
-				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -105,27 +84,11 @@ export default {
 					to: {
 						height: '0'
 					}
-				},
-				'wave': {
-					'0%': { transform: 'translateY(0px)' },
-					'50%': { transform: 'translateY(-10px)' },
-					'100%': { transform: 'translateY(0px)' }
-				},
-				'shimmer': {
-					'0%': { backgroundPosition: '-1000px 0' },
-					'100%': { backgroundPosition: '1000px 0' }
-				},
-				'float': {
-					'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
-					'50%': { transform: 'translateY(-20px) rotate(5deg)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'wave': 'wave 3s ease-in-out infinite',
-				'shimmer': 'shimmer 2s ease-in-out infinite',
-				'float': 'float 6s ease-in-out infinite'
+				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
 		}
 	},
