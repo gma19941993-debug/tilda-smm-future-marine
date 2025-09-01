@@ -115,37 +115,126 @@ export default function AstrologyIndex() {
             </div>
           </div>
 
-          {/* Center Column - Main Image */}
+          {/* Center Column - Neural Clock */}
           <div className="lg:col-span-1 flex items-center justify-center relative">
-            <div className="relative">
+            <div className="relative w-96 h-96">
+              {/* Glowing background effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-gold/20 via-emerald/20 to-gold/20 rounded-full blur-3xl"></div>
-              <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-gold/30">
-                <img 
-                  src="https://cdn.poehali.dev/files/c791d3c0-0cbb-4531-be83-2406aa7a8a2d.jpg" 
-                  alt="Преподаватель SMM"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              {/* Social Media Icons Circle */}
-              <div className="absolute inset-0 border-2 border-gold/40 rounded-full animate-spin" style={{ animationDuration: '20s' }}>
-                <div className="relative w-full h-full">
-                  <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
-                    <Icon name="Instagram" size={24} className="text-gold" />
+              
+              {/* Clock face */}
+              <div className="relative w-full h-full">
+                {/* 12 Learning blocks as clock numbers */}
+                <div className="absolute inset-0">
+                  {/* 12 o'clock - Content Strategy */}
+                  <div className="absolute top-2 left-1/2 transform -translate-x-1/2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-gold/40">
+                      <Icon name="Target" size={20} className="text-gold" />
+                    </div>
                   </div>
-                  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                    <Icon name="Facebook" size={24} className="text-gold" />
+                  
+                  {/* 1 o'clock - Analytics */}
+                  <div className="absolute top-8 right-20 transform translate-x-2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-emerald/40">
+                      <Icon name="BarChart3" size={20} className="text-emerald" />
+                    </div>
                   </div>
-                  <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
-                    <Icon name="MessageCircle" size={24} className="text-gold" />
+                  
+                  {/* 2 o'clock - Design */}
+                  <div className="absolute top-20 right-8">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-gold/40">
+                      <Icon name="Palette" size={20} className="text-gold" />
+                    </div>
                   </div>
-                  <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
-                    <Icon name="Youtube" size={24} className="text-gold" />
+                  
+                  {/* 3 o'clock - Instagram */}
+                  <div className="absolute right-2 top-1/2 transform -translate-y-1/2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-emerald/40">
+                      <Icon name="Instagram" size={20} className="text-emerald" />
+                    </div>
+                  </div>
+                  
+                  {/* 4 o'clock - Video */}
+                  <div className="absolute bottom-20 right-8">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-gold/40">
+                      <Icon name="Video" size={20} className="text-gold" />
+                    </div>
+                  </div>
+                  
+                  {/* 5 o'clock - Trends */}
+                  <div className="absolute bottom-8 right-20">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-emerald/40">
+                      <Icon name="TrendingUp" size={20} className="text-emerald" />
+                    </div>
+                  </div>
+                  
+                  {/* 6 o'clock - Community */}
+                  <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-gold/40">
+                      <Icon name="Users" size={20} className="text-gold" />
+                    </div>
+                  </div>
+                  
+                  {/* 7 o'clock - Advertising */}
+                  <div className="absolute bottom-8 left-20 transform -translate-x-2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-emerald/40">
+                      <Icon name="Megaphone" size={20} className="text-emerald" />
+                    </div>
+                  </div>
+                  
+                  {/* 8 o'clock - Email */}
+                  <div className="absolute bottom-20 left-8">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-gold/40">
+                      <Icon name="Mail" size={20} className="text-gold" />
+                    </div>
+                  </div>
+                  
+                  {/* 9 o'clock - Facebook */}
+                  <div className="absolute left-2 top-1/2 transform -translate-y-1/2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-emerald/40">
+                      <Icon name="Facebook" size={20} className="text-emerald" />
+                    </div>
+                  </div>
+                  
+                  {/* 10 o'clock - Content */}
+                  <div className="absolute top-20 left-8">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-gold/40">
+                      <Icon name="PenTool" size={20} className="text-gold" />
+                    </div>
+                  </div>
+                  
+                  {/* 11 o'clock - SEO */}
+                  <div className="absolute top-8 left-20 transform -translate-x-2">
+                    <div className="bg-cosmic/80 p-3 rounded-full border-2 border-emerald/40">
+                      <Icon name="Search" size={20} className="text-emerald" />
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Clock border */}
+                <div className="absolute inset-4 border-2 border-gold/30 rounded-full animate-pulse"></div>
+                
+                {/* Center photo without background */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-48 h-48 relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-emerald/20 rounded-full blur-xl"></div>
+                    <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-gold/50 bg-gradient-to-br from-mystic to-cosmic">
+                      <img 
+                        src="https://cdn.poehali.dev/files/c791d3c0-0cbb-4531-be83-2406aa7a8a2d.jpg" 
+                        alt="SMM Эксперт"
+                        className="w-full h-full object-cover mix-blend-luminosity hover:mix-blend-normal transition-all duration-500"
+                        style={{
+                          filter: 'contrast(1.2) brightness(1.1) saturate(0.8)'
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-gold/10 to-emerald/20"></div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="absolute top-4 left-4 bg-cosmic/90 px-4 py-2 rounded-full">
-              <span className="text-gold text-sm font-semibold">SMM ЭКСПЕРТ</span>
+            
+            <div className="absolute top-4 left-4 bg-cosmic/90 px-4 py-2 rounded-full backdrop-blur-sm">
+              <span className="text-gold text-sm font-semibold">12 МОДУЛЕЙ ОБУЧЕНИЯ</span>
             </div>
           </div>
 
