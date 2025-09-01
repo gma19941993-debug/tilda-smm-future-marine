@@ -61,7 +61,37 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Ocean Wave theme colors
+				ocean: {
+					50: '#f0fdff',
+					100: '#ccf7fe',
+					200: '#99eefd',
+					300: '#66e2fa',
+					400: '#0dd7f5',
+					500: '#06b6d4',
+					600: '#0891b2',
+					700: '#0e7490',
+					800: '#155e75',
+					900: '#164e63',
+					950: '#083344',
+				},
+				pearl: {
+					50: '#fefeff',
+					100: '#fdfeff',
+					200: '#fcfcff',
+					300: '#f9faff',
+					400: '#f4f6ff',
+					500: '#edf1ff',
+					600: '#c7d2fe',
+					700: '#a5b4fc',
+					800: '#8b93f7',
+					900: '#6366f1',
+				},
+				wave: '#4fb3d9',
+				seafoam: '#7dd3fc',
+				coral: '#fbbf24',
+				starfish: '#f97316'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
