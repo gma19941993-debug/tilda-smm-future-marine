@@ -8,13 +8,13 @@ export default function AstrologyIndex() {
       {/* Header */}
       <header className="p-6 text-center">
         <h1 className="text-xs uppercase tracking-widest text-gold-light mb-4">
-          ДИЗАЙН САЙТА ДЛЯ ЗАПУСКА МИНИ-КУРСА
+          ОНЛАЙН ШКОЛА СОЦИАЛЬНЫХ МЕДИА
         </h1>
         <h2 className="text-4xl md:text-6xl font-bold mb-2 bg-gradient-to-r from-gold via-gold-light to-gold bg-clip-text text-transparent">
-          ГАДАЛИК
+          SMM ШКОЛА
         </h2>
         <h3 className="text-2xl md:text-3xl font-light text-gold-light">
-          ДЛЯ АСТРОЛОГА
+          ПРОФЕССИЯ С НУЛЯ
         </h3>
       </header>
 
@@ -26,52 +26,52 @@ export default function AstrologyIndex() {
             <Card className="bg-cosmic border-gold/20 mb-6">
               <CardHeader>
                 <CardTitle className="text-gold flex items-center gap-2">
-                  <Icon name="Star" size={20} />
-                  ТАРО РАСКЛАД
+                  <Icon name="Smartphone" size={20} />
+                  SMM СПЕЦИАЛИСТ
                 </CardTitle>
                 <CardDescription className="text-gold-light/80">
-                  Раскрываю сердца через практику
+                  Освой профессию с нуля до результата
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3 text-sm">
                   <div className="flex items-start gap-2">
                     <Icon name="Check" size={16} className="text-emerald mt-0.5" />
-                    <span>Определяем вашего астрологического партнёра</span>
+                    <span>Изучим основы контент-маркетинга</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <Icon name="Check" size={16} className="text-emerald mt-0.5" />
-                    <span>В готовом бланке таро-карт определим совместимость</span>
+                    <span>Настроим рекламу во всех соцсетях</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <Icon name="Check" size={16} className="text-emerald mt-0.5" />
-                    <span>Построим астрологическую карту для пары</span>
+                    <span>Научимся анализировать статистику</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <Icon name="Check" size={16} className="text-emerald mt-0.5" />
-                    <span>Акт построения планетарного сеанса</span>
+                    <span>Создадим стратегию продвижения бренда</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <Icon name="Check" size={16} className="text-emerald mt-0.5" />
-                    <span>Астрология ниже уровня планеты</span>
+                    <span>Освоим визуальный контент и дизайн</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <Icon name="Check" size={16} className="text-emerald mt-0.5" />
-                    <span>Медитативная работа с астрологической картой</span>
+                    <span>Получим портфолио реальных проектов</span>
                   </div>
                 </div>
                 <div className="bg-gold/10 p-4 rounded-lg">
                   <p className="text-gold font-semibold text-2xl">25 000 руб</p>
                 </div>
                 <Button className="w-full bg-gold text-mystic hover:bg-gold-light">
-                  ПРИОБРЕСТИ ТАРИФ
+                  КУПИТЬ КУРС
                 </Button>
               </CardContent>
             </Card>
 
             <div className="text-center">
               <h3 className="text-gold text-lg font-semibold mb-2">ОТЗЫВ</h3>
-              <h4 className="text-gold-light mb-4">ЕЛЕНЫ</h4>
+              <h4 className="text-gold-light mb-4">СТУДЕНТКИ</h4>
               <Button variant="outline" className="border-gold text-gold hover:bg-gold/10">
                 ЗАДАТЬ ВОПРОС
               </Button>
@@ -84,20 +84,31 @@ export default function AstrologyIndex() {
               <div className="absolute inset-0 bg-gradient-to-r from-gold/20 via-emerald/20 to-gold/20 rounded-full blur-3xl"></div>
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-gold/30">
                 <img 
-                  src="https://cdn.poehali.dev/files/7002d63e-20ce-4de6-ad3a-4083cb1ac368.jpg" 
-                  alt="Юлия Мелес - Астролог"
+                  src="https://cdn.poehali.dev/files/c791d3c0-0cbb-4531-be83-2406aa7a8a2d.jpg" 
+                  alt="Преподаватель SMM"
                   className="w-full h-full object-cover"
                 />
               </div>
-              {/* Zodiac Circle Overlay */}
-              <div className="absolute inset-0 border-2 border-gold/40 rounded-full animate-spin" style={{ animationDuration: '60s' }}>
+              {/* Social Media Icons Circle */}
+              <div className="absolute inset-0 border-2 border-gold/40 rounded-full animate-spin" style={{ animationDuration: '20s' }}>
                 <div className="relative w-full h-full">
-                  {/* Zodiac symbols would go here */}
+                  <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
+                    <Icon name="Instagram" size={24} className="text-gold" />
+                  </div>
+                  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+                    <Icon name="Facebook" size={24} className="text-gold" />
+                  </div>
+                  <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
+                    <Icon name="MessageCircle" size={24} className="text-gold" />
+                  </div>
+                  <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+                    <Icon name="Youtube" size={24} className="text-gold" />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="absolute top-4 left-4 bg-cosmic/90 px-4 py-2 rounded-full">
-              <span className="text-gold text-sm font-semibold">ЮЛИЯ МЕЛЕС</span>
+              <span className="text-gold text-sm font-semibold">SMM ЭКСПЕРТ</span>
             </div>
           </div>
 
@@ -106,16 +117,16 @@ export default function AstrologyIndex() {
             <div className="mb-8">
               <h3 className="text-gold text-2xl font-bold mb-4">МИНИ-КУРС</h3>
               <h4 className="text-3xl font-bold text-emerald mb-6">
-                НАЙДИ СВОЕ<br />
-                ПРЕДНАЗНАЧЕНИЕ
+                ЗАРАБОТАЙ НА SMM<br />
+                УЖЕ В ПЕРВЫЙ МЕСЯЦ
               </h4>
               
               <div className="flex items-center gap-4 mb-6">
                 <Button variant="outline" className="border-gold text-gold bg-gold/10">
-                  52 ДНЕЙ
+                  30 ДНЕЙ
                 </Button>
                 <Button variant="outline" className="border-emerald text-emerald bg-emerald/10">
-                  30 НОЯБРЯ
+                  СТАРТ СЕЙЧАС
                 </Button>
               </div>
 
@@ -130,32 +141,15 @@ export default function AstrologyIndex() {
               <Card className="bg-cosmic/50 border-gold/20">
                 <CardHeader>
                   <CardTitle className="text-emerald flex items-center gap-2">
-                    <Icon name="Sparkles" size={20} />
-                    ОСНОВЫ АСТРОЛОГИИ
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm">
-                    <li>• Основные принципы и философия астрологии</li>
-                    <li>• Устройство натальной карты и её основные элементы</li>
-                    <li>• Значение планет, знаков зодиака и домов</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-cosmic/50 border-gold/20">
-                <CardHeader>
-                  <CardTitle className="text-emerald flex items-center gap-2">
                     <Icon name="Target" size={20} />
-                    ПРЕДНАЗНАЧЕНИЕ И ЖИЗНЕННЫЙ ПУТЬ
+                    ОСНОВЫ SMM
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm">
-                    <li>• Все Стихии: Солнце, Луна, Асцендент</li>
-                    <li>• Дома гороскопа и их значение</li>
-                    <li>• Анализ сильных планет в гороскопе</li>
-                    <li>• Предназначение</li>
+                    <li>• Анализ целевой аудитории и конкурентов</li>
+                    <li>• Создание контент-плана на месяц</li>
+                    <li>• Основы визуального оформления профилей</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -163,15 +157,16 @@ export default function AstrologyIndex() {
               <Card className="bg-cosmic/50 border-gold/20">
                 <CardHeader>
                   <CardTitle className="text-emerald flex items-center gap-2">
-                    <Icon name="Heart" size={20} />
-                    ТАЛАНТЫ СПОСОБНОСТИ И ПРИЗВАНИЕ
+                    <Icon name="PenTool" size={20} />
+                    СОЗДАНИЕ КОНТЕНТА
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm">
-                    <li>• Планеты-управители и их роль</li>
-                    <li>• Карта профессий в своей реализации</li>
-                    <li>• Развитие профессиональных талантов и способностей</li>
+                    <li>• Написание продающих постов и Stories</li>
+                    <li>• Работа с фото и видео контентом</li>
+                    <li>• Инструменты для дизайна и обработки</li>
+                    <li>• Планирование публикаций</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -179,15 +174,31 @@ export default function AstrologyIndex() {
               <Card className="bg-cosmic/50 border-gold/20">
                 <CardHeader>
                   <CardTitle className="text-emerald flex items-center gap-2">
-                    <Icon name="Zap" size={20} />
-                    АСТРОЛОГИЯ ВЛИЯНИЕ И РОСТ
+                    <Icon name="TrendingUp" size={20} />
+                    ПРОДВИЖЕНИЕ И РЕКЛАМА
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm">
-                    <li>• Транзиты и их влияние на жизненные события</li>
-                    <li>• Ретроградное движение планет для трансформации</li>
-                    <li>• Технки работы с ментальной картой для трансформации</li>
+                    <li>• Настройка рекламы в Instagram и VK</li>
+                    <li>• Работа с блогерами и коллаборации</li>
+                    <li>• Органическое продвижение хэштегами</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-cosmic/50 border-gold/20">
+                <CardHeader>
+                  <CardTitle className="text-emerald flex items-center gap-2">
+                    <Icon name="BarChart3" size={20} />
+                    АНАЛИТИКА И МОНЕТИЗАЦИЯ
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2 text-sm">
+                    <li>• Анализ эффективности и статистики</li>
+                    <li>• Способы заработка: услуги, продукты, партнёрство</li>
+                    <li>• Поиск клиентов и ценообразование</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -198,17 +209,17 @@ export default function AstrologyIndex() {
         {/* Footer */}
         <footer className="mt-16 text-center space-y-4">
           <p className="text-gold-light">
-            Для заказа сайта напишите мне<br />
-            в личные сообщения
+            Остались вопросы?<br />
+            Напишите в личные сообщения
           </p>
           <div className="flex justify-center gap-6">
             <Button variant="ghost" className="text-gold hover:text-gold-light">
               <Icon name="MessageCircle" size={20} className="mr-2" />
-              @Knyazeva_alen
+              Telegram
             </Button>
             <Button variant="ghost" className="text-gold hover:text-gold-light">
               <Icon name="Instagram" size={20} className="mr-2" />
-              @alen.knyazeva
+              Instagram
             </Button>
           </div>
         </footer>
