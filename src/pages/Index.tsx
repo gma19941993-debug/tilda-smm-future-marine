@@ -118,9 +118,11 @@ export default function Index() {
               <p className="text-2xl md:text-3xl text-ocean font-semibold mb-6">
                 Профессия с нуля
               </p>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-                Погрузитесь в мир социальных медиа с нашей онлайн-школой. 
-                Изучайте SMM в интерактивном формате с видеоуроками и практическими заданиями.
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-4">
+                Освой онлайн профессию СММ специалист с нуля, чтобы уже в первый месяц зарабатывать от 20.000₽
+              </p>
+              <p className="text-base text-muted-foreground max-w-2xl mx-auto mb-8 opacity-80">
+                Практический курс по обучению профессии, после которого вы не только выйдете на доход, но и почувствуете свою значимость.
               </p>
               <Button size="lg" className="text-lg px-8 py-4 animate-shimmer">
                 Начать обучение
