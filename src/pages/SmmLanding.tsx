@@ -15,34 +15,80 @@ const SmmLanding = () => {
           <div className="absolute bottom-20 left-1/3 w-40 h-40 bg-ocean-300 rounded-full blur-3xl animate-pulse animation-delay-2000"></div>
         </div>
 
-        <div className="container mx-auto px-6 text-center relative z-10">
-          <div className="max-w-4xl mx-auto">
-            {/* Badge */}
-            <div className="inline-block bg-ocean-500/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-ocean-200">
-              <span className="text-ocean-700 font-semibold text-sm tracking-wider">
-                АВТОРСКИЙ КУРС
-              </span>
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+            {/* Left Column - Text Content */}
+            <div className="text-center lg:text-left">
+              {/* Badge */}
+              <div className="inline-block bg-ocean-500/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-ocean-200">
+                <span className="text-ocean-700 font-semibold text-sm tracking-wider">
+                  АВТОРСКИЙ КУРС
+                </span>
+              </div>
+
+              {/* Main Heading */}
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-ocean-600 via-wave to-ocean-800 bg-clip-text text-transparent">
+                SMM ВОЛНА
+              </h1>
+
+              {/* Description */}
+              <p className="text-xl md:text-2xl text-ocean-700 mb-12 leading-relaxed">
+                Освой востребованную онлайн-профессию смм специалист с нуля, благодаря которой ты будешь иметь стабильный доход. 
+                Перестанешь зависеть от других. Обретешь новые знакомства и исполнишь свои мечты.
+              </p>
+
+              {/* CTA Button */}
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white px-12 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-ocean-500/25 transition-all duration-300 transform hover:scale-105"
+              >
+                <Icon name="Waves" className="mr-3" size={24} />
+                ХОЧУ НА КУРС
+              </Button>
             </div>
 
-            {/* Main Heading */}
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-ocean-600 via-wave to-ocean-800 bg-clip-text text-transparent">
-              SMM ВОЛНА
-            </h1>
+            {/* Right Column - Expert Photo */}
+            <div className="flex items-center justify-center lg:justify-end">
+              <div className="relative">
+                {/* Glowing background effects */}
+                <div className="absolute inset-0 bg-gradient-to-br from-ocean-200/30 via-seafoam/20 to-pearl-200/40 rounded-full blur-3xl scale-150"></div>
+                <div className="absolute -top-10 -right-10 w-32 h-32 bg-coral/20 rounded-full blur-2xl animate-pulse"></div>
+                <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-ocean-300/30 rounded-full blur-3xl animate-pulse animation-delay-1000"></div>
+                
+                {/* Main photo container */}
+                <div className="relative w-80 h-80 lg:w-96 lg:h-96">
+                  {/* Decorative rings */}
+                  <div className="absolute inset-0 border-2 border-ocean-300/30 rounded-full animate-spin" style={{ animationDuration: '20s' }}></div>
+                  <div className="absolute inset-4 border border-seafoam/40 rounded-full animate-spin" style={{ animationDuration: '15s', animationDirection: 'reverse' }}></div>
+                  
+                  {/* Photo */}
+                  <div className="absolute inset-8 rounded-full overflow-hidden border-4 border-white/50 shadow-2xl">
+                    <img 
+                      src="https://cdn.poehali.dev/files/0083e9a7-06c9-4a3c-980f-99c2bc0a91db.jpg" 
+                      alt="Волкова Марина - SMM Эксперт"
+                      className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-transparent via-ocean-100/10 to-seafoam/20"></div>
+                  </div>
 
-            {/* Description */}
-            <p className="text-xl md:text-2xl text-ocean-700 mb-12 leading-relaxed max-w-3xl mx-auto">
-              Освой востребованную онлайн-профессию смм специалист с нуля, благодаря которой ты будешь иметь стабильный доход. 
-              Перестанешь зависеть от других. Обретешь новые знакомства и исполнишь свои мечты.
-            </p>
+                  {/* Floating elements */}
+                  <div className="absolute top-4 right-4 w-16 h-16 bg-gradient-to-br from-coral to-starfish rounded-full flex items-center justify-center animate-bounce shadow-xl">
+                    <Icon name="Instagram" size={24} className="text-white" />
+                  </div>
+                  <div className="absolute bottom-8 left-0 w-14 h-14 bg-gradient-to-br from-ocean-400 to-seafoam rounded-full flex items-center justify-center animate-bounce shadow-xl" style={{ animationDelay: '0.5s' }}>
+                    <Icon name="TrendingUp" size={20} className="text-white" />
+                  </div>
+                  <div className="absolute top-1/3 -left-4 w-12 h-12 bg-gradient-to-br from-wave to-ocean-500 rounded-full flex items-center justify-center animate-bounce shadow-xl" style={{ animationDelay: '1s' }}>
+                    <Icon name="Heart" size={16} className="text-white" />
+                  </div>
+                </div>
 
-            {/* CTA Button */}
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white px-12 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-ocean-500/25 transition-all duration-300 transform hover:scale-105"
-            >
-              <Icon name="Waves" className="mr-3" size={24} />
-              ХОЧУ НА КУРС
-            </Button>
+                {/* Name badge */}
+                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full border-2 border-ocean-200 shadow-xl">
+                  <span className="text-ocean-800 font-bold text-lg">Марина Волкова</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
