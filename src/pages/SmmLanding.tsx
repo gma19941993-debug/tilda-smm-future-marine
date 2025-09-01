@@ -8,11 +8,97 @@ const SmmLanding = () => {
     <div className="min-h-screen bg-gradient-to-br from-ocean-50 to-pearl-100">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Animated background */}
+        {/* Animated background with marine elements */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-10 left-10 w-32 h-32 bg-ocean-200 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute top-40 right-20 w-24 h-24 bg-seafoam rounded-full blur-2xl animate-pulse animation-delay-1000"></div>
           <div className="absolute bottom-20 left-1/3 w-40 h-40 bg-ocean-300 rounded-full blur-3xl animate-pulse animation-delay-2000"></div>
+        </div>
+
+        {/* Moving marine elements with social icons */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Floating hearts/likes */}
+          <div className="absolute top-20 left-10 animate-bounce" style={{ animationDelay: '0s', animationDuration: '3s' }}>
+            <div className="w-8 h-8 bg-coral/70 rounded-full flex items-center justify-center shadow-lg">
+              <Icon name="Heart" size={16} className="text-white" />
+            </div>
+          </div>
+          <div className="absolute top-60 right-32 animate-bounce" style={{ animationDelay: '1s', animationDuration: '4s' }}>
+            <div className="w-6 h-6 bg-coral/60 rounded-full flex items-center justify-center shadow-lg">
+              <Icon name="Heart" size={12} className="text-white" />
+            </div>
+          </div>
+          <div className="absolute bottom-40 left-20 animate-bounce" style={{ animationDelay: '2s', animationDuration: '3.5s' }}>
+            <div className="w-10 h-10 bg-coral/80 rounded-full flex items-center justify-center shadow-lg">
+              <Icon name="Heart" size={18} className="text-white" />
+            </div>
+          </div>
+
+          {/* Floating repost/share icons */}
+          <div className="absolute top-32 right-10 animate-bounce" style={{ animationDelay: '0.5s', animationDuration: '3.5s' }}>
+            <div className="w-8 h-8 bg-ocean-400/70 rounded-full flex items-center justify-center shadow-lg">
+              <Icon name="Share2" size={16} className="text-white" />
+            </div>
+          </div>
+          <div className="absolute bottom-60 right-40 animate-bounce" style={{ animationDelay: '1.5s', animationDuration: '4s' }}>
+            <div className="w-7 h-7 bg-ocean-500/60 rounded-full flex items-center justify-center shadow-lg">
+              <Icon name="Share2" size={14} className="text-white" />
+            </div>
+          </div>
+
+          {/* Floating starfish */}
+          <div className="absolute top-40 left-1/4 animate-spin" style={{ animationDuration: '8s' }}>
+            <div className="w-12 h-12 text-seafoam/40">
+              <Icon name="Star" size={48} />
+            </div>
+          </div>
+          <div className="absolute bottom-32 right-1/4 animate-spin" style={{ animationDuration: '12s', animationDirection: 'reverse' }}>
+            <div className="w-8 h-8 text-ocean-300/50">
+              <Icon name="Star" size={32} />
+            </div>
+          </div>
+
+          {/* Floating waves */}
+          <div className="absolute top-1/3 left-5 animate-pulse" style={{ animationDuration: '4s' }}>
+            <div className="w-16 h-16 text-wave/30">
+              <Icon name="Waves" size={64} />
+            </div>
+          </div>
+          <div className="absolute bottom-1/4 right-10 animate-pulse" style={{ animationDuration: '5s', animationDelay: '1s' }}>
+            <div className="w-12 h-12 text-seafoam/40">
+              <Icon name="Waves" size={48} />
+            </div>
+          </div>
+
+          {/* Swimming fish (using arrow icons as fish) */}
+          <div className="absolute top-1/2 left-0 animate-ping" style={{ animationDuration: '6s' }}>
+            <div className="w-10 h-10 text-ocean-400/30 transform rotate-45">
+              <Icon name="ArrowRight" size={40} />
+            </div>
+          </div>
+          <div className="absolute bottom-1/3 right-0 animate-ping" style={{ animationDuration: '7s', animationDelay: '2s' }}>
+            <div className="w-8 h-8 text-ocean-300/40 transform rotate-180">
+              <Icon name="ArrowRight" size={32} />
+            </div>
+          </div>
+
+          {/* Floating bubbles with likes count */}
+          <div className="absolute top-24 left-1/3 animate-bounce" style={{ animationDelay: '3s', animationDuration: '5s' }}>
+            <div className="bg-white/70 backdrop-blur-sm rounded-full px-3 py-1 shadow-lg border border-ocean-200">
+              <span className="text-ocean-600 text-xs font-semibold flex items-center gap-1">
+                <Icon name="Heart" size={12} className="text-coral" />
+                127
+              </span>
+            </div>
+          </div>
+          <div className="absolute bottom-40 right-1/3 animate-bounce" style={{ animationDelay: '4s', animationDuration: '4.5s' }}>
+            <div className="bg-white/70 backdrop-blur-sm rounded-full px-3 py-1 shadow-lg border border-ocean-200">
+              <span className="text-ocean-600 text-xs font-semibold flex items-center gap-1">
+                <Icon name="Share2" size={12} className="text-ocean-500" />
+                89
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="container mx-auto px-6 relative z-10">
@@ -371,7 +457,7 @@ const SmmLanding = () => {
       <section className="py-20 bg-gradient-to-b from-pearl-100 to-ocean-100">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-ocean-800">
-            КТО АВТОР МАРАФОНА?
+            КТО АВТОР КУРСА?
           </h2>
           
           <div className="max-w-4xl mx-auto">
