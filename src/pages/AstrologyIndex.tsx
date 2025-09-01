@@ -69,12 +69,49 @@ export default function AstrologyIndex() {
               </CardContent>
             </Card>
 
-            <div className="text-center">
+            <div className="text-center mb-8">
               <h3 className="text-gold text-lg font-semibold mb-2">ОТЗЫВ</h3>
               <h4 className="text-gold-light mb-4">СТУДЕНТКИ</h4>
               <Button variant="outline" className="border-gold text-gold hover:bg-gold/10">
                 ЗАДАТЬ ВОПРОС
               </Button>
+            </div>
+
+            {/* Additional Photos Section */}
+            <div className="space-y-6">
+              <div className="relative">
+                <div className="w-full h-64 rounded-lg overflow-hidden border-2 border-gold/30 relative">
+                  <img 
+                    src="https://cdn.poehali.dev/files/5591a788-2f17-4a9d-830e-d5a88c1e806b.jpg" 
+                    alt="SMM обучение"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-mystic/80 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-4 left-4">
+                    <div className="flex items-center gap-2 text-gold">
+                      <Icon name="Users" size={20} />
+                      <span className="font-semibold">НАСТАВНИК</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="w-full h-64 rounded-lg overflow-hidden border-2 border-emerald/30 relative">
+                  <img 
+                    src="https://cdn.poehali.dev/files/c791d3c0-0cbb-4531-be83-2406aa7a8a2d.jpg" 
+                    alt="SMM стратегия"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-cosmic/80 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-4 left-4">
+                    <div className="flex items-center gap-2 text-emerald">
+                      <Icon name="Lightbulb" size={20} />
+                      <span className="font-semibold">СТРАТЕГИЯ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
