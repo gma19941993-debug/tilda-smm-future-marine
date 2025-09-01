@@ -63,7 +63,7 @@ export default function Index() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-shell/50 bg-white/90">
                   <img 
-                    src="/img/3b6d3268-5e6f-4123-ad8e-fdddd094e1ea.jpg" 
+                    src="/img/bf5088dc-af6a-4fac-87cc-5209362d6516.jpg" 
                     alt="Преподаватель SMM"
                     className="w-full h-full object-cover"
                   />
@@ -308,7 +308,7 @@ export default function Index() {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-shell shadow-2xl">
                   <img 
-                    src="/img/3b6d3268-5e6f-4123-ad8e-fdddd094e1ea.jpg" 
+                    src="/img/bf5088dc-af6a-4fac-87cc-5209362d6516.jpg" 
                     alt="Преподаватель"
                     className="w-full h-full object-cover"
                   />
