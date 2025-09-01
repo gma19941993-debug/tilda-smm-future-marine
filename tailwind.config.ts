@@ -19,17 +19,26 @@ export default {
 		},
 		extend: {
 			colors: {
-				ocean: {
-					DEFAULT: '#00CED1',
-					deep: '#1E3A8A',
-					light: '#F0F8FF',
-					cyan: '#40E0D0',
-					turquoise: '#48D1CC'
+				// Astrology theme colors
+				mystic: {
+					DEFAULT: '#1a1a2e',
+					light: '#2a2a4e', 
+					dark: '#0f0f1f'
 				},
-				shell: {
-					DEFAULT: '#FFD700',
-					light: '#FFF8DC',
-					iridescent: '#E6E6FA'
+				gold: {
+					DEFAULT: '#d4af37',
+					light: '#f4d03f',
+					dark: '#b7950b'
+				},
+				cosmic: {
+					DEFAULT: '#16213e',
+					light: '#1e3a5f',
+					dark: '#0d1426'
+				},
+				emerald: {
+					DEFAULT: '#00bfa5',
+					light: '#4dd0e1',
+					dark: '#00695c'
 				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
