@@ -10,6 +10,16 @@ const SmmLanding = () => {
     <div className="min-h-screen bg-gradient-to-br from-ocean-50 to-pearl-100">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          style={{
+            backgroundImage: "url('/img/34debb3d-c088-4635-87b6-c4b5f0d3e9b5.jpg')",
+            filter: 'blur(2px)',
+            transform: 'scale(1.1)',
+          }}
+        ></div>
+        
         {/* Animated background with marine elements */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-10 left-10 w-32 h-32 bg-ocean-200 rounded-full blur-3xl animate-pulse"></div>
