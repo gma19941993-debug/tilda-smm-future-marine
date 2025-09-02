@@ -127,6 +127,10 @@ const SmmLanding = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white px-12 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-ocean-500/25 transition-all duration-300 transform hover:scale-105"
+                onClick={() => {
+                  // Скролл к секции с тарифами
+                  document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 <Icon name="Waves" className="mr-3" size={24} />
                 ХОЧУ НА КУРС
@@ -510,7 +514,7 @@ const SmmLanding = () => {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-gradient-to-b from-ocean-100 to-pearl-50">
+      <section id="pricing" className="py-20 bg-gradient-to-b from-ocean-100 to-pearl-50">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-ocean-800">
             ТАРИФЫ
@@ -543,7 +547,13 @@ const SmmLanding = () => {
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
                   <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы)</span>
                 </div>
-                <Button className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6">
+                <Button 
+                  className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6"
+                  onClick={() => {
+                    // Открываем WhatsApp с сообщением
+                    window.open('https://wa.me/79999999999?text=Привет! Хочу записаться на курс SMM по тарифу "Я САМ(А)" за 20.000₽', '_blank');
+                  }}
+                >
                   ВЫБИРАЮ ЭТОТ ТАРИФ
                 </Button>
               </CardContent>
@@ -587,7 +597,13 @@ const SmmLanding = () => {
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
                   <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
                 </div>
-                <Button className="w-full mt-8 bg-gradient-to-r from-coral to-starfish hover:from-orange-500 hover:to-coral text-white py-6">
+                <Button 
+                  className="w-full mt-8 bg-gradient-to-r from-coral to-starfish hover:from-orange-500 hover:to-coral text-white py-6"
+                  onClick={() => {
+                    // Открываем WhatsApp с сообщением
+                    window.open('https://wa.me/79999999999?text=Привет! Хочу записаться на курс SMM по тарифу "СММ ЭКСПЕРТА ГРУППА" за 50.000₽', '_blank');
+                  }}
+                >
                   ВЫБИРАЮ ЭТОТ ТАРИФ
                 </Button>
               </CardContent>
@@ -628,7 +644,13 @@ const SmmLanding = () => {
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
                   <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
                 </div>
-                <Button className="w-full mt-8 bg-gradient-to-r from-ocean-600 to-ocean-800 hover:from-ocean-700 hover:to-ocean-900 text-white py-6">
+                <Button 
+                  className="w-full mt-8 bg-gradient-to-r from-ocean-600 to-ocean-800 hover:from-ocean-700 hover:to-ocean-900 text-white py-6"
+                  onClick={() => {
+                    // Открываем WhatsApp с сообщением
+                    window.open('https://wa.me/79999999999?text=Привет! Хочу записаться на курс SMM по тарифу "СММ ЭКСПЕРТА VIP ВОЛНА" за 100.000₽', '_blank');
+                  }}
+                >
                   ВЫБИРАЮ ЭТОТ ТАРИФ
                 </Button>
               </CardContent>
