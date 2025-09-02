@@ -1005,6 +1005,20 @@ const SmmLanding = () => {
           </div>
           
           <div className="border-t border-white/20 pt-8">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-4">
+              <a 
+                href="/offer-agreement" 
+                className="text-white/70 hover:text-white transition-colors underline text-sm"
+              >
+                Договор оферты
+              </a>
+              <a 
+                href="/privacy-policy" 
+                className="text-white/70 hover:text-white transition-colors underline text-sm"
+              >
+                Политика конфиденциальности
+              </a>
+            </div>
             <p className="text-white/80">
               © SMM Волна, 2024
             </p>
