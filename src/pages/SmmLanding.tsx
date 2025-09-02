@@ -158,7 +158,7 @@ const SmmLanding = () => {
                 <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-ocean-300/30 rounded-full blur-3xl animate-pulse animation-delay-1000"></div>
                 
                 {/* Main photo container */}
-                <div className="relative w-80 h-80 lg:w-96 lg:h-96">
+                <div className="relative w-96 h-96 lg:w-[28rem] lg:h-[28rem]">
                   {/* Decorative rings */}
                   <div className="absolute inset-0 border-2 border-ocean-300/30 rounded-full animate-spin" style={{ animationDuration: '20s' }}></div>
                   <div className="absolute inset-4 border border-seafoam/40 rounded-full animate-spin" style={{ animationDuration: '15s', animationDirection: 'reverse' }}></div>
