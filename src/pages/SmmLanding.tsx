@@ -879,7 +879,7 @@ const SmmLanding = () => {
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-coral to-starfish rounded-full flex items-center justify-center">
                   <Icon name="Users" size={32} className="text-white" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТА ГРУППА</CardTitle>
+                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТ ГРУППА</CardTitle>
                 <div className="text-sm text-coral font-semibold mb-2">(1 месяц)</div>
                 <div className="text-4xl font-bold text-ocean-600 mb-4">50.000 ₽</div>
               </CardHeader>
@@ -936,7 +936,7 @@ const SmmLanding = () => {
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-ocean-600 to-ocean-800 rounded-full flex items-center justify-center">
                   <Icon name="Crown" size={32} className="text-white" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТА VIP ВОЛНА</CardTitle>
+                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТ VIP ВОЛНА</CardTitle>
                 <div className="text-sm text-ocean-600 font-semibold mb-2">(2 месяца)</div>
                 <div className="text-4xl font-bold text-ocean-600 mb-4">100.000 ₽</div>
               </CardHeader>
