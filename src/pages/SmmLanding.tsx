@@ -197,20 +197,103 @@ const SmmLanding = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Mothers on maternity leave */}
-            <Card className="bg-white/70 backdrop-blur-sm border-ocean-200 hover:shadow-xl transition-all duration-300 group">
-              <CardHeader className="text-center">
-                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-coral to-starfish rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Icon name="Baby" size={32} className="text-white" />
-                </div>
-                <CardTitle className="text-ocean-800 text-xl">МАМЫ В ДЕКРЕТЕ</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-ocean-600 text-center leading-relaxed">
-                  Хотите научиться зарабатывать не отходя от материнства, иметь свои деньги и не зависеть от мужа, родителей. 
-                  Чувствовать свободу и уверенность.
-                </p>
-              </CardContent>
-            </Card>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Card className="bg-white/70 backdrop-blur-sm border-ocean-200 hover:shadow-xl transition-all duration-300 group cursor-pointer">
+                  <CardHeader className="text-center">
+                    <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-coral to-starfish rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <Icon name="Baby" size={32} className="text-white" />
+                    </div>
+                    <CardTitle className="text-ocean-800 text-xl">МАМЫ В ДЕКРЕТЕ</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-ocean-600 text-center leading-relaxed">
+                      Хотите научиться зарабатывать не отходя от материнства, иметь свои деньги и не зависеть от мужа, родителей. 
+                      Чувствовать свободу и уверенность.
+                    </p>
+                    <div className="text-center mt-4">
+                      <Button variant="outline" size="sm">
+                        Смотреть кейсы
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </DialogTrigger>
+              <DialogContent className="max-w-4xl max-h-[80vh]">
+                <DialogHeader>
+                  <DialogTitle className="text-2xl text-ocean-800">Кейсы мам в декрете</DialogTitle>
+                  <DialogDescription>
+                    Истории успеха мам, которые освоили SMM и начали зарабатывать
+                  </DialogDescription>
+                </DialogHeader>
+                <ScrollArea className="h-[60vh]">
+                  <div className="space-y-6 p-4">
+                    {/* Аня Белых */}
+                    <div className="bg-gradient-to-r from-coral/10 to-starfish/10 p-6 rounded-lg">
+                      <h3 className="text-xl font-bold text-coral mb-3">Аня Белых</h3>
+                      <p className="text-ocean-700 leading-relaxed">
+                        Аня мама в декрете как и я, одна из первый учениц кто мне доверилась. За это ей отдельная благодарность. 
+                        Вечерами и ночами совмещая материнство и обучение Аня выполняла все задания и мы перешли к поиску заказчиков. 
+                        Тогда у меня еще не было возможности дать заказчика сразу, но я знала как искать их и где. 
+                        Поэтому размещая свое предложение нашолся первый заказчик довольно быстро и это была <strong>школа развития для детей</strong>. 
+                        Как раз то что нужно для мамы в декрете.
+                      </p>
+                    </div>
+                    
+                    {/* Настя Кибанова */}
+                    <div className="bg-gradient-to-r from-ocean/10 to-seafoam/10 p-6 rounded-lg">
+                      <h3 className="text-xl font-bold text-ocean-600 mb-3">Настя Кибанова</h3>
+                      <p className="text-ocean-700 leading-relaxed">
+                        Настя очень разносторонняя у неё много интересов и она постоянно что-то изучает. 
+                        Ко мне в работу она пришла именно освоить профессию смм и увеличить свой доход. 
+                        И очень часто так бывает, что когда на курсе доходят до урока упаковки среди подписчиков находятся первые заказчики. 
+                        Так было и с Настей. Ей написала её знакомая подписчица что ей нужен смм специалист. 
+                        <strong>Ниша бьюти сферы депиляция и обучающие курсы</strong>. Настя успешно начала развиваться и получать обратную связь о своей работе. 
+                        Кстати Настя мама и все это она делала с сыном.
+                      </p>
+                    </div>
+
+                    {/* Алена Серебрякова */}
+                    <div className="bg-gradient-to-r from-coral/10 to-wave/10 p-6 rounded-lg">
+                      <h3 className="text-xl font-bold text-coral mb-3">Алена Серебрякова</h3>
+                      <p className="text-ocean-700 leading-relaxed">
+                        Алена из маленького города Куртамыш работала в найме и пришла ко мне по рекомендации. Нужен был дополнительный доход. 
+                        И как только Алена перестала думать что найти в её городе это не возможно и просто выполняла все мои рекомендации получила первого заказчика это была <strong>доставка еды</strong>. 
+                        Потом фотограф потом фитнес клуб и строительная база и вакансия в моём агентстве. 
+                        Как вы понимаете Алена ушла из найма и теперь развивается в смм. 
+                        Она кстати тоже мама прекрасной девчонки, которая ходит в садик. 
+                        Поэтому она легко совмещает материнство и работу в смм.
+                      </p>
+                    </div>
+
+                    {/* Настя Кремлева */}
+                    <div className="bg-gradient-to-r from-ocean/10 to-coral/10 p-6 rounded-lg">
+                      <h3 className="text-xl font-bold text-ocean-600 mb-3">Настя Кремлева</h3>
+                      <p className="text-ocean-700 leading-relaxed">
+                        Настя мама в декрете, точнее декрет уже закончился пора работать и поэтому она начала искать чем же заниматься. 
+                        Главный страх и вопрос для неё был это точно ли будет клиент и где их искать. 
+                        Как не остаться с новыми знаниями которые никому не нужны. 
+                        <strong>Первые заявки пошли еще на этапе упаковки аккаунта</strong>, а по завершению я предлагала ей разные ниши для работы. 
+                        Но Настя нашла своего первого заказчика сама. Поэтому от предложений отказалась, 
+                        это кстати большой плюс в смм что ты можешь выбирать с кем тебе работать.
+                      </p>
+                    </div>
+
+                    {/* Таня Максименко */}
+                    <div className="bg-gradient-to-r from-starfish/10 to-coral/10 p-6 rounded-lg">
+                      <h3 className="text-xl font-bold text-coral mb-3">Таня Максименко</h3>
+                      <p className="text-ocean-700 leading-relaxed">
+                        Таня ученица отличница, пришла ко мне учиться после плохого опыта работы с смм. 
+                        Таня пришла разобраться и в итоге освоила новую профессию. 
+                        И её красным дипломом стал <strong>первый международный заказчик визовый центр и доход сразу в 40.000₽</strong>. 
+                        Отзывы о работе, и поиск помощников для себя. 
+                        Таня кстати многодетная мама и я иногда сама удивляюсь когда она все успевает но одно прекрасно у неё точно получается.
+                      </p>
+                    </div>
+                  </div>
+                </ScrollArea>
+              </DialogContent>
+            </Dialog>
 
             {/* Housewives */}
             <Dialog>
