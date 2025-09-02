@@ -43,10 +43,10 @@ export default function OfferAgreement() {
                   <div className="bg-ocean-50 p-6 rounded-lg">
                     <p className="text-ocean-700 font-semibold mb-2">Контактная информация:</p>
                     <ul className="text-ocean-600 space-y-1">
-                      <li><strong>Телефон:</strong> +7 (XXX) XXX-XX-XX</li>
-                      <li><strong>Email:</strong> info@example.com</li>
-                      <li><strong>Telegram:</strong> @username</li>
-                      <li><strong>Instagram:</strong> @username</li>
+                      <li><strong>Телефон:</strong> +7 9226799890</li>
+                      <li><strong>Email:</strong> izvestno.volkova@yandex.com</li>
+                      <li><strong>Telegram:</strong> @volkova.marinasmm</li>
+                      <li><strong>Instagram:</strong> @volkova.marinasmm</li>
                     </ul>
                   </div>
                 </section>

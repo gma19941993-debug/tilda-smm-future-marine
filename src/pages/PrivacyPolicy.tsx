@@ -48,19 +48,19 @@ export default function PrivacyPolicy() {
                     <ul className="text-ocean-600 space-y-2">
                       <li className="flex items-center gap-2">
                         <Icon name="Phone" size={16} />
-                        <strong>Телефон:</strong> +7 (XXX) XXX-XX-XX
+                        <strong>Телефон:</strong> +7 9226799890
                       </li>
                       <li className="flex items-center gap-2">
                         <Icon name="Mail" size={16} />
-                        <strong>Email:</strong> info@example.com
+                        <strong>Email:</strong> izvestno.volkova@yandex.com
                       </li>
                       <li className="flex items-center gap-2">
                         <Icon name="MessageCircle" size={16} />
-                        <strong>Telegram:</strong> @username
+                        <strong>Telegram:</strong> @volkova.marinasmm
                       </li>
                       <li className="flex items-center gap-2">
                         <Icon name="Instagram" size={16} />
-                        <strong>Instagram:</strong> @username
+                        <strong>Instagram:</strong> @volkova.marinasmm
                       </li>
                     </ul>
                   </div>
