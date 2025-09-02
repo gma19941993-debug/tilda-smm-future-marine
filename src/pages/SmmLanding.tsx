@@ -547,15 +547,25 @@ const SmmLanding = () => {
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
                   <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы)</span>
                 </div>
-                <Button 
-                  className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6"
-                  onClick={() => {
-                    // Открываем страницу оплаты Продамус для тарифа "Я САМ(А)"
-                    window.open('https://your-domain.pay.prodamus.ru/plan1', '_blank');
-                  }}
-                >
-                  ВЫБИРАЮ ЭТОТ ТАРИФ
-                </Button>
+                <div className="space-y-3">
+                  <Button 
+                    className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6"
+                    onClick={() => {
+                      window.open('https://payform.ru/nr8Vfs6/', '_blank');
+                    }}
+                  >
+                    ОПЛАТИТЬ ПОЛНОСТЬЮ
+                  </Button>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-ocean-300 text-ocean-600 hover:bg-ocean-50 py-6"
+                    onClick={() => {
+                      window.open('https://payform.ru/7j8Vg5Q/', '_blank');
+                    }}
+                  >
+                    ОПЛАТИТЬ В РАССРОЧКУ
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
@@ -597,15 +607,25 @@ const SmmLanding = () => {
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
                   <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
                 </div>
-                <Button 
-                  className="w-full mt-8 bg-gradient-to-r from-coral to-starfish hover:from-orange-500 hover:to-coral text-white py-6"
-                  onClick={() => {
-                    // Открываем страницу оплаты Продамус для тарифа "СММ ЭКСПЕРТА ГРУППА"
-                    window.open('https://your-domain.pay.prodamus.ru/plan2', '_blank');
-                  }}
-                >
-                  ВЫБИРАЮ ЭТОТ ТАРИФ
-                </Button>
+                <div className="space-y-3">
+                  <Button 
+                    className="w-full mt-8 bg-gradient-to-r from-coral to-starfish hover:from-orange-500 hover:to-coral text-white py-6"
+                    onClick={() => {
+                      window.open('https://payform.ru/gd8VfUp/', '_blank');
+                    }}
+                  >
+                    ОПЛАТИТЬ ПОЛНОСТЬЮ
+                  </Button>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-coral text-coral hover:bg-coral hover:text-white py-6"
+                    onClick={() => {
+                      window.open('https://payform.ru/su8Vg14/', '_blank');
+                    }}
+                  >
+                    ОПЛАТИТЬ В РАССРОЧКУ
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
@@ -644,15 +664,25 @@ const SmmLanding = () => {
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
                   <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
                 </div>
-                <Button 
-                  className="w-full mt-8 bg-gradient-to-r from-ocean-600 to-ocean-800 hover:from-ocean-700 hover:to-ocean-900 text-white py-6"
-                  onClick={() => {
-                    // Открываем страницу оплаты Продамус для тарифа VIP
-                    window.open('https://your-domain.pay.prodamus.ru/plan3', '_blank');
-                  }}
-                >
-                  ВЫБИРАЮ ЭТОТ ТАРИФ
-                </Button>
+                <div className="space-y-3">
+                  <Button 
+                    className="w-full mt-8 bg-gradient-to-r from-ocean-600 to-ocean-800 hover:from-ocean-700 hover:to-ocean-900 text-white py-6"
+                    onClick={() => {
+                      window.open('https://payform.ru/3w8Vgjt/', '_blank');
+                    }}
+                  >
+                    ОПЛАТИТЬ ПОЛНОСТЬЮ
+                  </Button>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-ocean-600 text-ocean-600 hover:bg-ocean-600 hover:text-white py-6"
+                    onClick={() => {
+                      window.open('https://t.me/+-KRFu4cH3rVjNTU6', '_blank');
+                    }}
+                  >
+                    РАССРОЧКА В TELEGRAM
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </div>
