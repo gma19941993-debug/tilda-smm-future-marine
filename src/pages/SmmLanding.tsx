@@ -550,8 +550,8 @@ const SmmLanding = () => {
                 <Button 
                   className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6"
                   onClick={() => {
-                    // Открываем WhatsApp с сообщением
-                    window.open('https://wa.me/79999999999?text=Привет! Хочу записаться на курс SMM по тарифу "Я САМ(А)" за 20.000₽', '_blank');
+                    // Открываем страницу оплаты Продамус для тарифа "Я САМ(А)"
+                    window.open('https://your-domain.pay.prodamus.ru/plan1', '_blank');
                   }}
                 >
                   ВЫБИРАЮ ЭТОТ ТАРИФ
@@ -600,8 +600,8 @@ const SmmLanding = () => {
                 <Button 
                   className="w-full mt-8 bg-gradient-to-r from-coral to-starfish hover:from-orange-500 hover:to-coral text-white py-6"
                   onClick={() => {
-                    // Открываем WhatsApp с сообщением
-                    window.open('https://wa.me/79999999999?text=Привет! Хочу записаться на курс SMM по тарифу "СММ ЭКСПЕРТА ГРУППА" за 50.000₽', '_blank');
+                    // Открываем страницу оплаты Продамус для тарифа "СММ ЭКСПЕРТА ГРУППА"
+                    window.open('https://your-domain.pay.prodamus.ru/plan2', '_blank');
                   }}
                 >
                   ВЫБИРАЮ ЭТОТ ТАРИФ
@@ -647,8 +647,8 @@ const SmmLanding = () => {
                 <Button 
                   className="w-full mt-8 bg-gradient-to-r from-ocean-600 to-ocean-800 hover:from-ocean-700 hover:to-ocean-900 text-white py-6"
                   onClick={() => {
-                    // Открываем WhatsApp с сообщением
-                    window.open('https://wa.me/79999999999?text=Привет! Хочу записаться на курс SMM по тарифу "СММ ЭКСПЕРТА VIP ВОЛНА" за 100.000₽', '_blank');
+                    // Открываем страницу оплаты Продамус для тарифа VIP
+                    window.open('https://your-domain.pay.prodamus.ru/plan3', '_blank');
                   }}
                 >
                   ВЫБИРАЮ ЭТОТ ТАРИФ
