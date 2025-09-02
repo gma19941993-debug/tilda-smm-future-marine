@@ -677,10 +677,10 @@ const SmmLanding = () => {
                     variant="outline"
                     className="w-full border-ocean-600 text-ocean-600 hover:bg-ocean-600 hover:text-white py-6"
                     onClick={() => {
-                      window.open('https://t.me/+-KRFu4cH3rVjNTU6', '_blank');
+                      window.open('https://payform.ru/6o8Vglw/', '_blank');
                     }}
                   >
-                    РАССРОЧКА В TELEGRAM
+                    ОПЛАТИТЬ В РАССРОЧКУ
                   </Button>
                 </div>
               </CardContent>
