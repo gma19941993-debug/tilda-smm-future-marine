@@ -817,36 +817,36 @@ const SmmLanding = () => {
       {/* Pricing Section */}
       <section id="pricing" className="py-20 bg-gradient-to-b from-ocean-100 to-pearl-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-ocean-800">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-ocean-800 px-4">
             ТАРИФЫ
           </h2>
           
-          <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto px-4">
             {/* Basic Plan */}
             <Card className="bg-white/80 backdrop-blur-sm border-ocean-200 hover:shadow-2xl transition-all duration-300">
               <CardHeader className="text-center pb-2">
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-ocean-400 to-seafoam rounded-full flex items-center justify-center">
                   <Icon name="User" size={32} className="text-white" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">Я САМ(А)</CardTitle>
-                <div className="text-4xl font-bold text-ocean-600 mb-4">20.000 ₽</div>
+                <CardTitle className="text-lg sm:text-xl lg:text-2xl font-bold text-ocean-800 mb-2">Я САМ(А)</CardTitle>
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ocean-600 mb-4">20.000 ₽</div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Доступ ко всем урокам программы 6 месяцев</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Доступ ко всем урокам программы 6 месяцев</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Доступ в мой ТГ канал с полезной информацией</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Доступ в мой ТГ канал с полезной информацией</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">1 личная консультация с автором курса (2 часа)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">1 личная консультация с автором курса (2 часа)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Готовые шаблоны (контент-план, брифы)</span>
                 </div>
                 <div className="space-y-3">
                   <Button 
@@ -879,34 +879,34 @@ const SmmLanding = () => {
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-coral to-starfish rounded-full flex items-center justify-center">
                   <Icon name="Users" size={32} className="text-white" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТ ГРУППА</CardTitle>
+                <CardTitle className="text-lg sm:text-xl lg:text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТ ГРУППА</CardTitle>
                 <div className="text-sm text-coral font-semibold mb-2">(1 месяц)</div>
-                <div className="text-4xl font-bold text-ocean-600 mb-4">50.000 ₽</div>
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ocean-600 mb-4">50.000 ₽</div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Доступ ко всем урокам программы 12 месяцев</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Доступ ко всем урокам программы 12 месяцев</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Доступ в мой ТГ канал с полезной информацией</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Доступ в мой ТГ канал с полезной информацией</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">1 личная консультация с автором курса (2 часа)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">1 личная консультация с автором курса (2 часа)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Созвон 1 раз в неделю с группой (разборы)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Созвон 1 раз в неделю с группой (разборы)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">11 модулей (2 бонусных после основных блоков)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">11 модулей (2 бонусных после основных блоков)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-coral mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base leading-relaxed">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
                 </div>
                 <div className="space-y-3">
                   <Button 
@@ -936,22 +936,22 @@ const SmmLanding = () => {
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-ocean-600 to-ocean-800 rounded-full flex items-center justify-center">
                   <Icon name="Crown" size={32} className="text-white" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТ VIP ВОЛНА</CardTitle>
+                <CardTitle className="text-lg sm:text-xl lg:text-2xl font-bold text-ocean-800 mb-2">СММ ЭКСПЕРТ VIP ВОЛНА</CardTitle>
                 <div className="text-sm text-ocean-600 font-semibold mb-2">(2 месяца)</div>
-                <div className="text-4xl font-bold text-ocean-600 mb-4">100.000 ₽</div>
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ocean-600 mb-4">100.000 ₽</div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Доступ ко всем урокам программы навсегда</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Доступ ко всем урокам программы навсегда</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Доступ в мой платный ТГ канал с полезной информацией</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">Доступ в мой платный ТГ канал с полезной информацией</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">1 личная консультация в неделю по 2 часа (8 сессий всего)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">1 личная консультация в неделю по 2 часа (8 сессий всего)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Star" size={20} className="text-coral mt-1 flex-shrink-0" />
@@ -959,11 +959,11 @@ const SmmLanding = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">11 модулей (2 бонусных после основных блоков)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base">11 модулей (2 бонусных после основных блоков)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Check" size={20} className="text-ocean-500 mt-1 flex-shrink-0" />
-                  <span className="text-ocean-700">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
+                  <span className="text-ocean-700 text-sm sm:text-base leading-relaxed">Готовые шаблоны (контент-план, брифы, воронки, сторитейлинги)</span>
                 </div>
                 <div className="space-y-3">
                   <Button 
@@ -992,25 +992,25 @@ const SmmLanding = () => {
 
       {/* Footer */}
       <footer className="py-16 bg-gradient-to-r from-ocean-800 to-ocean-900">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-white mb-8">
+        <div className="container mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-8 px-4">
             ЕСЛИ ВОЗНИКЛИ ВОПРОСЫ
           </h2>
           
-          <div className="flex justify-center gap-8 mb-8">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 mb-8 px-4">
             <a 
               href="https://t.me/volkova_marinasmm" 
-              className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-4 rounded-full hover:bg-white/20 transition-colors text-white"
+              className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 sm:px-6 py-3 sm:py-4 rounded-full hover:bg-white/20 transition-colors text-white text-sm sm:text-base"
             >
-              <Icon name="Send" size={24} />
-              <span className="font-semibold">@volkova_marinasmm</span>
+              <Icon name="Send" size={20} className="sm:w-6 sm:h-6" />
+              <span className="font-semibold break-all">@volkova_marinasmm</span>
             </a>
             <a 
               href="mailto:gma19941993@mail.ru" 
-              className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-4 rounded-full hover:bg-white/20 transition-colors text-white"
+              className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 sm:px-6 py-3 sm:py-4 rounded-full hover:bg-white/20 transition-colors text-white text-sm sm:text-base"
             >
-              <Icon name="Mail" size={24} />
-              <span className="font-semibold">gma19941993@mail.ru</span>
+              <Icon name="Mail" size={20} className="sm:w-6 sm:h-6" />
+              <span className="font-semibold break-all">gma19941993@mail.ru</span>
             </a>
           </div>
           
