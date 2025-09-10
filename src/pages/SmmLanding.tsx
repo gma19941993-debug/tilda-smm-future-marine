@@ -113,7 +113,7 @@ const SmmLanding = () => {
           </div>
         </div>
 
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
             {/* Left Column - Text Content */}
             <div className="text-center lg:text-left">
@@ -125,12 +125,12 @@ const SmmLanding = () => {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-ocean-600 via-wave to-ocean-800 bg-clip-text text-transparent">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 bg-gradient-to-r from-ocean-600 via-wave to-ocean-800 bg-clip-text text-transparent">
                 SMM ВОЛНА
               </h1>
 
               {/* Description */}
-              <p className="text-xl md:text-2xl text-ocean-700 mb-12 leading-relaxed">
+              <p className="text-lg sm:text-xl md:text-2xl text-ocean-700 mb-8 sm:mb-12 leading-relaxed px-4 sm:px-0">
                 Освой востребованную онлайн-профессию смм специалист с нуля, благодаря которой ты будешь иметь стабильный доход. 
                 Перестанешь зависеть от других. Обретешь новые знакомства и исполнишь свои мечты.
               </p>
@@ -186,8 +186,8 @@ const SmmLanding = () => {
                 </div>
 
                 {/* Name badge */}
-                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full border-2 border-ocean-200 shadow-xl">
-                  <span className="text-ocean-800 font-bold text-lg">Марина Волкова</span>
+                <div className="absolute -bottom-4 sm:-bottom-6 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-ocean-200 shadow-xl">
+                  <span className="text-ocean-800 font-bold text-sm sm:text-base lg:text-lg">Марина Волкова</span>
                 </div>
               </div>
             </div>
@@ -200,8 +200,8 @@ const SmmLanding = () => {
 
       {/* Who is this course for */}
       <section className="py-20 bg-gradient-to-b from-pearl-50 to-ocean-50">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-ocean-800">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-ocean-800">
             КОМУ ПОДОЙДЕТ КУРС
           </h2>
           
@@ -562,8 +562,8 @@ const SmmLanding = () => {
 
       {/* Program Section */}
       <section className="py-20 bg-gradient-to-b from-ocean-50 to-pearl-100">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-ocean-800">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-ocean-800">
             ПРОГРАММА
           </h2>
           
@@ -760,8 +760,8 @@ const SmmLanding = () => {
 
       {/* Author Section */}
       <section className="py-20 bg-gradient-to-b from-pearl-100 to-ocean-100">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-ocean-800">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-ocean-800">
             КТО АВТОР КУРСА?
           </h2>
           
@@ -816,7 +816,7 @@ const SmmLanding = () => {
 
       {/* Pricing Section */}
       <section id="pricing" className="py-20 bg-gradient-to-b from-ocean-100 to-pearl-50">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-ocean-800 px-4">
             ТАРИФЫ
           </h2>
