@@ -850,10 +850,11 @@ const SmmLanding = () => {
                 </div>
                 <div className="space-y-3">
                   <Button 
-                    className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6"
+                    className="w-full mt-8 bg-gradient-to-r from-ocean-500 to-wave hover:from-ocean-600 hover:to-ocean-500 text-white py-6 cursor-pointer touch-manipulation"
                     onClick={() => {
                       window.open('https://payform.ru/nr8Vfs6/', '_blank');
                     }}
+                    type="button"
                   >
                     ОПЛАТИТЬ ПОЛНОСТЬЮ
                   </Button>
